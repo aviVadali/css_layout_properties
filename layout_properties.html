@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>Layout Properties</title>
+    <link rel="stylesheet" href="layout_properties.css">
+  </head>
+
+  <body>
+    <h1>CSS Layout Properties</h1>
+    <h2>An introduction to Page Layout</h2>
+
+    <div class="main">
+      Setting the width of a block-level element will prevent it from stretching out to the edges of its container to the left and right. Then, you can set the left and right margins to auto to horizontally center that element within its container. The element will take up the width you specify, then the remaining space will be split evenly between the two margins...
+    </div>
+
+    <div class="simple">
+      This is a simple div.
+    </div>
+    <div class="fancy">
+      This is a fancy div.
+    </div>
+
+    <div class="static">
+      This is a div. By default it has a static position. All elements are position: static; unless otherwise defined. An element with a static position is considered <em>not positioned</em>.
+    </div>
+
+    <div class="relative-one">
+      An element with a position of relative behaves the same as an element with position static, until you add certain properties.
+    </div>
+    <div class="relative-two">
+      Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. The position of other elements will not be changed.
+    </div>
+
+    <div class="fixed">
+      This is an element with a fixed position. It is anchored to a single spot on the viewport (A fancy name for the visible page). This element won't move even if the page is scrolled.
+    </div>
+
+    <div class="relative-three">
+      This is an element with a relative position. Inside of it, there is an element with an absolutely position.
+
+      <div class="absolute">
+        This is an element with an absolute position. It is anchored to a specific spot within its relatively positioned parent element.
+      </div>
+    </div>
+  </body>
+</html>

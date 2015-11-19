@@ -1,0 +1,51 @@
+/*IGNORE THIS CSS*/
+body{
+  font-family: Courier;
+}
+h1, h2{
+  text-align: center;
+  font-weight: 100;
+}
+
+h2{
+  color: red;
+  margin-bottom: 50px;
+}
+
+/*PAY ATTENTION TO THIS CSS*/
+.main{
+  background-color: #E5E4E2;
+}
+
+.simple{
+  background-color: lightblue;
+}
+
+.fancy{
+  background-color: lightblue;
+}
+
+.static{
+  background-color: lightgreen;
+  margin-bottom: 20px;
+}
+
+.relative-one{
+  background-color: #46C7C7;
+}
+
+.relative-two{
+  background-color: lavender;
+}
+
+.fixed{
+  background-color: #FFFFC2;
+}
+
+.relative-three{
+  background-color: #6495ED;
+}
+
+.absolute{
+  background-color: #F75D59;
+}
